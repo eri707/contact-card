@@ -8,6 +8,7 @@ body {
   width: 30rem;
   height: 30rem;
   margin: 0 auto;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .card-component {
@@ -54,26 +55,25 @@ body {
 }
 .address h2 {
   color: #748e97;
+  margin-top: 0;
 }
 
 .info {
   display: flex;
   border-top: 0.05rem solid #748e97;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem 3rem 1rem 3rem;
 }
-.info .followers h3 {
+.info h2 {
+  margin-bottom: 3px;
+}
+.info h3 {
+  margin-top: 0;
   color: #748e97;
 }
-.info .likes h3 {
-  color: #748e97;
-}
-.info .photos h3 {
-  color: #748e97;
-}
-
-main h2 {
-  align-items: center;
+.info .followers, .info .likes, .info .photos {
+  width: 30%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
