@@ -1,0 +1,75 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+}
+.card-component {
+  width: 100%;
+  border: 0.1rem solid  rgb(2, 118, 185);
+  border-radius: 2rem;
+}
+.pattern-card {
+    width: 100%;
+    margin: 0;
+    img{
+        width: 100%;
+        border-radius: 2rem 2rem 0 0;
+    }
+}
+.photo img {
+    width: 15%;
+  border-radius: 5rem;
+  border: 0.5rem solid white;
+  position: absolute;
+  top: 15%;
+  left: 42.5%;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 4rem;
+  h1 {
+      margin-bottom: 0;
+  }
+  .age {
+    color: rgb(116, 142, 151);
+    padding-left: 1.5rem;
+  }
+}
+.address {
+    text-align: center;
+    margin-top: 0;
+    h2 {
+        color: rgb(116, 142, 151);
+    }
+}
+.info {
+  display: flex;
+  border-top: 0.05rem solid rgb(116, 142, 151);
+  justify-content: space-between;
+  padding: 1rem 3rem 1rem 3rem;
+  .followers h3 {
+    color: rgb(116, 142, 151);
+  }
+  .likes h3 {
+    color: rgb(116, 142, 151);
+  }
+  .photos h3 {
+    color: rgb(116, 142, 151);
+  }
+}
+
+main h2 {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */

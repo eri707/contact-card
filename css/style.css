@@ -1,0 +1,82 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+.card-component {
+  width: 100%;
+  border: 0.1rem solid #0276b9;
+  border-radius: 2rem;
+}
+
+.pattern-card {
+  width: 100%;
+  margin: 0;
+}
+.pattern-card img {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.photo img {
+  width: 15%;
+  border-radius: 5rem;
+  border: 0.5rem solid white;
+  position: absolute;
+  top: 15%;
+  left: 42.5%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 4rem;
+}
+.name h1 {
+  margin-bottom: 0;
+}
+.name .age {
+  color: #748e97;
+  padding-left: 1.5rem;
+}
+
+.address {
+  text-align: center;
+  margin-top: 0;
+}
+.address h2 {
+  color: #748e97;
+}
+
+.info {
+  display: flex;
+  border-top: 0.05rem solid #748e97;
+  justify-content: space-between;
+  padding: 1rem 3rem 1rem 3rem;
+}
+.info .followers h3 {
+  color: #748e97;
+}
+.info .likes h3 {
+  color: #748e97;
+}
+.info .photos h3 {
+  color: #748e97;
+}
+
+main h2 {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
