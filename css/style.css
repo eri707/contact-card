@@ -15,6 +15,7 @@ body {
   width: 100%;
   border: 0.1rem solid #0276b9;
   border-radius: 2rem;
+  position: relative;
 }
 
 .pattern-card {
@@ -26,13 +27,16 @@ body {
   border-radius: 2rem 2rem 0 0;
 }
 
+.photo {
+  position: absolute;
+  top: 116px;
+  text-align: center;
+  width: 100%;
+}
+
 .photo img {
-  width: 15%;
   border-radius: 5rem;
   border: 0.5rem solid white;
-  position: absolute;
-  top: 15%;
-  left: 42.5%;
 }
 
 .name {
